@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nav</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="assets/css/faleconnosco.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/mobile.css">
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-md bg780C92 sticky-top">
+        <div class="container-fluid">
+
+            <a class="navbar-brand ps-5" href="index.html">
+                <img src="assets/img/logo.svg" alt="logo" class="img-fluid" width="130">
+            </a>
+
+            <div class="d-md-none">
+                <a class="navbar-brand px-1" href="#">
+                    <img src="assets/img/search.svg" alt="seach" class="img-fluid" width="25">
+                </a> 
+                <a class="navbar-brand px-1" href="#">
+                    <img src="assets/img/profile.svg" alt="profile" class="img-fluid" width="25">
+                </a> 
+                <a class="navbar-brand px-1" href="#">
+                    <img src="assets/img/bag.svg" alt="bag" class="img-fluid" width="25">
+                </a>  
+            </div>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                <span>
+                    <img classe="nav-link img-fluid" src="assets/img/nav.svg" alt="iconNav" width="25">
+                </span>
+            </button>
+
+            <div class="offcanvas offcanvas-end bgBF17E6" id="navbarToggler">
+                <div class="offcanvas-header justify-content-end align-items-end">
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                  </div>
+                <div class="offcanvas-body justify-content-md-center align-items-md-center">
+                    <ul class="navbar-nav mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline" aria-current="page" href="sobrenos.html">Sobre nós</a>
+                        </li>                      
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="menu.html">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu bgBF17E6">
+                                <li>
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="menu.html">
+                                         Destaques
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="menu.html">
+                                        Doces
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="menu.html">
+                                         Bebidas
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="menu.html">
+                                         Combos e Encomendas
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="shop.html">
+                                Shop
+                            </a>
+                            <ul class="dropdown-menu bgBF17E6">
+                                <li>
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="shop.html">
+                                         Destaques
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="shop.html">
+                                        Roupas
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="shop.html">
+                                        Souvenirs
+                                    </a>
+                                </li>
+                                <li>    
+                                    <a class="dropdown-item colorFFF3A7 font-roboto-300 font-20 px-lg-4 underline-dropdown" href="shop.html">
+                                         Combos e Promoções
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link font-roboto-300 font-20 px-lg-4 underline" href="faleconnosco.html">Fale connosco</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="d-none d-md-block pe-3">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/search.svg" alt="search" class="img-fluid" width="25">
+                </a> 
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/profile.svg" alt="profile" class="img-fluid" width="25">
+                </a> 
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/bag.svg" alt="bag" class="img-fluid" width="25">
+                </a>      
+            </div>
+        </div>
+      </nav>   
+
+</body>
+</html>

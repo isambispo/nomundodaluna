@@ -1,0 +1,10 @@
+@media (min-width: 992px) {
+
+    .linha {
+        height: 100px;
+        width: 0;
+        border-left: 1px solid #780C92;
+    } 
+}
+
+
